@@ -213,14 +213,15 @@ footer .last-text {
 	.container {
 		padding: 20px;
 		margin: auto;
-		width: 96%;
+		/* width: 96%; */
 	}
 	.main-content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		margin-top: 165px;
-		flex-shrink: inherit;
+        flex-shrink: inherit;
+        margin-right: 50px;
 	}
 	.main-content img {
 		margin: auto;
