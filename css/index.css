@@ -194,6 +194,7 @@ footer .last-text {
         padding: 20px;
         position: static;
         margin-top: -19px;
+        margin-bottom: 0;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -221,7 +222,7 @@ footer .last-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 165px;
+        margin-top: 0;
         flex-shrink: inherit;
         margin-right: 50px;
     }
@@ -319,6 +320,10 @@ footer .last-text {
         font-size: 2rem;
     }
     p, address {
+        font-size: 2rem;
+    }
+    button {
+        padding: 14px 50px 14px 50px;
         font-size: 2rem;
     }
     .details-section {
