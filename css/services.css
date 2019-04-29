@@ -12,6 +12,22 @@
 }
 
 /* cards */
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p, address {
+    font-size: 2rem;
+}
+li {
+    font-size: 1.8rem;
+}
+button {
+    padding: 14px 50px 14px 50px;
+    font-size: 2rem;
+}
 
 .services {
 	padding: 10px;
