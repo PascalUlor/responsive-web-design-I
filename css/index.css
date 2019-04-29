@@ -1,61 +1,62 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -63,201 +64,276 @@ h1, h2, h3, h4, h5 {
 /* header section */
 
 header {
-	display: flex;
-	align-items: center;
-	padding: 10px;
-	margin-bottom: 50px;
-	position: fixed;
-	/* background-color: aquamarine; */
-	z-index: 1;
-	margin-top: -19px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: fixed;
+    /* background-color: aquamarine; */
+    z-index: 1;
+    margin-top: -19px;
 }
 
 .logo-container {
-	padding: 10px;
-	margin-left: 80px;
-	vertical-align: middle;
+    padding: 10px;
+    margin-left: 80px;
+    vertical-align: middle;
 }
 
 /* nav section */
 
 nav {
-	display: inline-block;
-	vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav a {
-	padding: 15px 15px 15px 0;
-	margin: 20px 33px 20px 0;
-	text-decoration: none;
-	color: #ada8a8;
+    padding: 15px 15px 15px 0;
+    margin: 20px 33px 20px 0;
+    text-decoration: none;
+    color: #ada8a8;
 }
 
 nav a:hover {
-	color: #000;
-	border-bottom: 1px solid #000;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 /* main section */
 
 .container {
-	padding: 20px;
-	margin: auto;
-	width: 960px;
+    padding: 20px;
+    margin: auto;
+    width: 960px;
 }
 
 .main-content {
-	display: flex;
-	padding: 10px;
-	margin-bottom: 50px;
-	margin-top: 100px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .main-content img {
-	margin-left: 60px;
+    margin-left: 60px;
 }
 
 .main-text {
-	font-size: 85px;
-	text-align: center;
-	width: 50%;
+    font-size: 85px;
+    text-align: center;
+    width: 50%;
 }
 
 button {
-	padding: 5px 30px 5px 30px;
-	font-size: 20px;
-	background-color: #fff;
-	border: 1px solid #747070;
-	color: #747070;
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #747070;
+    color: #747070;
 }
 
 button:hover {
-	background-color: aquamarine;
+    background-color: aquamarine;
 }
 
 .details-section {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 10px;
-	margin: auto;
-	width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
 }
 
 .top-details, .bottom-details {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .features-section, .about-section {
-	width: 49%;
-	vertical-align: top;
-	padding: 20px 20px 20px 0;
+    width: 49%;
+    vertical-align: top;
+    padding: 20px 20px 20px 0;
 }
 
 .services-section, .product-section, .vision-section {
-	width: 33%;
-	vertical-align: top;
-	padding: 20px 20px 20px 0;
+    width: 33%;
+    vertical-align: top;
+    padding: 20px 20px 20px 0;
 }
 
 .contact-section {
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 address, p {
-	padding: 10px 10px 10px 0;
+    padding: 10px 10px 10px 0;
 }
-
 
 /* footer section*/
 
 footer {
-	padding: 10px;
+    padding: 10px;
 }
+
 footer .last-text {
-	text-align: center;
+    text-align: center;
 }
 
 /* media query */
 
 @media only screen and (max-width: 800px) {
-	.logo-container {
-		padding: 10px;
-		margin: auto;
-		vertical-align: middle;
-	}
-	header {
-		padding: 20px;
-		margin-top: -19px;
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		flex-shrink: inherit;
+    .logo-container {
+        padding: 10px;
+        margin: auto;
+        vertical-align: middle;
+    }
+    header {
+        padding: 20px;
+        position: static;
+        margin-top: -19px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-shrink: inherit;
         width: 92%;
         flex-direction: column-reverse;
-	}
-	nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
-		height: 60px;
-	}
-	nav a {
-		padding: 15px 15px 15px 0;
-		margin: -11px 33px -13px 0;
-	}
-	.container {
-		padding: 20px;
-		margin: auto;
-		/* width: 96%; */
-	}
-	.main-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		margin-top: 165px;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 60px;
+    }
+    nav a {
+        padding: 15px 15px 15px 0;
+        margin: -11px 33px -13px 0;
+    }
+    .container {
+        padding: 20px;
+        margin: auto;
+        /* width: 96%; */
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 165px;
         flex-shrink: inherit;
         margin-right: 50px;
-	}
-	.main-content img {
+    }
+    .main-content img {
         margin: auto;
         display: none;
-	}
-	
-	.main-text {
-		text-align: center;
-		margin: auto;
+    }
+    .main-text {
+        text-align: center;
+        margin: auto;
     }
     .details-section {
         width: 85%;
     }
-	.top-details, .bottom-details {
-		flex-direction: row;
-		justify-content: center;
+    .top-details, .bottom-details {
+        flex-direction: row;
+        justify-content: center;
     }
     .details-image img {
         width: 95%;
     }
-	.features-section, .about-section {
-		width: 96%;
-	}
-	
-	.services-section, .product-section, .vision-section {
-		width: 96%;
+    .features-section, .about-section {
+        width: 96%;
+    }
+    .services-section, .product-section, .vision-section {
+        width: 96%;
     }
     footer {
         margin: auto;
         width: 51rem;
     }
-
 }
 
-
-
 @media only screen and (max-width: 500px) {
-
+    .logo-container {
+        padding: 10px;
+        margin: auto;
+        vertical-align: middle;
+        
+    }
+    .logo-container img {
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+    header {
+        padding: 20px;
+        position: static;
+        margin-top: -19px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-shrink: inherit;
+        width: 101%;
+        flex-direction: column-reverse;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    nav a {
+        padding: 15px 15px 15px 0;
+        margin: -11px 33px 3px 0;
+        border-bottom: 1px solid rgb(179, 174, 174);
+        font-size: 3rem;
+        width: 235%;
+        text-align: center;
+    }
+    nav a:nth-child(1) {
+        border-top: 1px solid rgb(179, 174, 174);
+    }
+    .container {
+        padding: 20px;
+        margin: auto;
+        /* width: 96%; */
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25rem;
+        flex-shrink: inherit;
+        margin-right: 50px;
+    }
+    .main-content img {
+        margin: auto;
+        display: none;
+    }
+    .main-text {
+        text-align: center;
+        margin: auto;
+    }
+    .details-section {
+        width: 85%;
+    }
+    .top-details, .bottom-details {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .details-image img {
+        width: 95%;
+    }
+    .features-section, .about-section {
+        width: 96%;
+    }
+    .services-section, .product-section, .vision-section {
+        width: 96%;
+    }
+    footer {
+        margin: auto;
+        width: 51rem;
+    }
 }
