@@ -260,7 +260,6 @@ footer .last-text {
         padding: 10px;
         margin: auto;
         vertical-align: middle;
-        
     }
     .logo-container img {
         width: 25rem;
@@ -316,15 +315,26 @@ footer .last-text {
         text-align: center;
         margin: auto;
     }
+    h1 {
+        font-size: 2rem;
+    }
+    p, address {
+        font-size: 2rem;
+    }
     .details-section {
-        width: 85%;
+        width: 65%;
     }
     .top-details, .bottom-details {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        padding: 2rem;
+    }
+    .details-image {
+        align-items: center;
     }
     .details-image img {
-        width: 95%;
+        width: 88%;
+        margin-left: 2rem;
     }
     .features-section, .about-section {
         width: 96%;
@@ -332,8 +342,15 @@ footer .last-text {
     .services-section, .product-section, .vision-section {
         width: 96%;
     }
+    small {
+        font-size: 1.3rem;
+    }
+    .last-text {
+        margin-top: 0.5rem;
+        padding: 2rem;
+    }
     footer {
         margin: auto;
-        width: 51rem;
+        width: 36rem;
     }
 }
