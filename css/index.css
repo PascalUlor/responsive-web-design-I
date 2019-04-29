@@ -224,24 +224,36 @@ footer .last-text {
         margin-right: 50px;
 	}
 	.main-content img {
-		margin: auto;
+        margin: auto;
+        display: none;
 	}
 	
 	.main-text {
 		text-align: center;
 		margin: auto;
-	}
+    }
+    .details-section {
+        width: 85%;
+    }
 	.top-details, .bottom-details {
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
-	}
+    }
+    .details-image img {
+        width: 95%;
+    }
 	.features-section, .about-section {
 		width: 96%;
 	}
 	
 	.services-section, .product-section, .vision-section {
 		width: 96%;
-	}
+    }
+    footer {
+        margin: auto;
+        width: 51rem;
+    }
+
 }
 
 
