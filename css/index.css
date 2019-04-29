@@ -183,7 +183,7 @@ footer .last-text {
 
 /* media query */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 800px) {
 	.logo-container {
 		padding: 10px;
 		margin: auto;
@@ -243,3 +243,7 @@ footer .last-text {
 }
 
 
+
+@media only screen and (max-width: 500px) {
+
+}
