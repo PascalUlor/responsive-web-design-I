@@ -68,7 +68,7 @@ header {
 	padding: 10px;
 	margin-bottom: 50px;
 	position: fixed;
-	background-color: aquamarine;
+	/* background-color: aquamarine; */
 	z-index: 1;
 	margin-top: -19px;
 }
@@ -196,14 +196,15 @@ footer .last-text {
 		justify-content: space-between;
 		flex-wrap: wrap;
 		flex-shrink: inherit;
-		width: 92%;
+        width: 92%;
+        flex-direction: column-reverse;
 	}
 	nav {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: space-between;
 		align-items: flex-start;
-		height: 154px;
+		height: 60px;
 	}
 	nav a {
 		padding: 15px 15px 15px 0;
