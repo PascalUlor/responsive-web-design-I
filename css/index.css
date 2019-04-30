@@ -225,7 +225,7 @@ footer .last-text {
         justify-content: center;
         margin-top: 0;
         flex-shrink: inherit;
-        margin-right: 50px;
+        /* margin-right: 50px; */
         margin: 0 auto;
     }
     .main-content img {
@@ -284,80 +284,101 @@ footer .last-text {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 60px;
+        height: 3rem;
+        width: 43rem;
     }
     nav a {
         padding: 20px 15px 20px 0;
-        margin: -11px 33px 3px 0;
+        margin: 0 2rem;
         border-bottom: 1px solid rgb(179, 174, 174);
         font-size: 2rem;
-        width: 45rem;
+        width: 50rem;
         text-align: center;
     }
     nav a:nth-child(1) {
         border-top: 1px solid rgb(179, 174, 174);
     }
-    .container {
-        padding: 20px;
-        margin: auto;
-        /* width: 96%; */
-    }
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 25rem;
-        flex-shrink: inherit;
-        margin-right: 50px;
-    }
-    .main-content img {
-        margin: auto;
-        display: none;
-    }
-    .main-text {
-        text-align: center;
-        margin: auto;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    p, address {
-        font-size: 2rem;
-    }
-    button {
-        padding: 14px 50px 14px 50px;
-        font-size: 2rem;
-    }
-    .details-section {
-        width: 65%;
-    }
-    .top-details, .bottom-details {
-        flex-direction: column;
-        justify-content: center;
-        padding: 2rem;
-    }
-    .details-image {
-        align-items: center;
-    }
-    .details-image img {
-        width: 88%;
-        margin-left: 2rem;
-    }
-    .features-section, .about-section {
-        width: 96%;
-    }
-    .services-section, .product-section, .vision-section {
-        width: 96%;
-    }
-    small {
-        font-size: 1.3rem;
-    }
-    .last-text {
-        margin-top: 0.5rem;
-        padding: 2rem;
-    }
-    footer {
-        margin: auto;
-        width: 36rem;
-    }
+ .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 48rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25rem;
+    flex-shrink: inherit;
+    margin-right: 50px;
+}
+
+.main-content img {
+    margin: auto;
+    display: none;
+}
+
+.main-text {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p, address {
+    font-size: 2rem;
+}
+
+button {
+    padding: 14px 50px 14px 50px;
+    font-size: 2rem;
+}
+
+.details-section {
+    width: 45rem;
+}
+
+.top-details, .bottom-details {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.details-image {
+    align-items: center;
+}
+
+.details-image img {
+    width: 88%;
+    margin-left: 2rem;
+}
+
+.features-section, .about-section {
+    width: 96%;
+}
+
+.services-section, .product-section, .vision-section {
+    width: 96%;
+}
+
+small {
+    font-size: 1.3rem;
+}
+
+.last-text {
+    margin-top: 0.5rem;
+    padding: 2rem;
+}
+
+footer {
+    margin: auto;
+    width: 40rem;
+}
+
 }
