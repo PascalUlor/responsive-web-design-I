@@ -125,6 +125,16 @@ li {
 }
 
 @media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p, address {
+        font-size: 2rem;
+    }
+    
 	#cover-image {
 		margin-top: 24rem;
 	}
@@ -146,7 +156,7 @@ li {
 	}
 	.card button {
 		border-radius: 8%;
-		font-size: 10px;
+		font-size: 1.5rem;
 	}
 	.facts-section {
 		margin: 10px;
