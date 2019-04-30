@@ -1,0 +1,177 @@
+
+/* cover image*/
+#cover-image {
+	background: #fff url('../img/services-header.jpg') center center no-repeat;
+	color: white;
+	height: 30vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	padding: 1.4rem;
+	margin-top: 5rem;
+}
+
+/* cards */
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p, address {
+    font-size: 2rem;
+}
+li {
+    font-size: 1.8rem;
+}
+button {
+    padding: 14px 50px 14px 50px;
+    font-size: 2rem;
+}
+
+.services {
+	padding: 10px;
+}
+
+.card-section {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px;
+	padding: 10px;
+}
+
+.card {
+	border: 1px solid black;
+	width: 48%;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgb(238, 237, 237);
+}
+
+.card-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	width: 104%;
+}
+
+.card button {
+	border-radius: 8%;
+	font-size: 10px;
+}
+
+.about-services {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+	width: 96%
+}
+
+.about-services p {
+	width: 85%
+}
+
+li {
+	list-style-type: disc;
+}
+
+/* media query */
+
+@media only screen and (max-width: 800px) {
+	#cover-image {
+		margin-top: 8rem;
+	}
+	/* cards */
+	.card-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.card {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.card-row {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	.card button {
+		border-radius: 8%;
+		font-size: 10px;
+	}
+	.facts-section {
+		margin: 10px;
+	}
+	.about-services {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 25px;
+		width: 96%
+	}
+	.about-services p {
+		width: 85%
+	}
+	li {
+		list-style-type: disc;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p, address {
+        font-size: 2rem;
+    }
+    
+	#cover-image {
+		margin-top: 24rem;
+	}
+	/* cards */
+	.card-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.card {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.card-row {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	.card button {
+		border-radius: 8%;
+		font-size: 1.5rem;
+	}
+	.facts-section {
+		margin: 10px;
+	}
+	.about-services {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 25px;
+		width: 96%
+	}
+	.about-services p {
+		width: 85%
+	}
+	li {
+		list-style-type: disc;
+	}
+}
